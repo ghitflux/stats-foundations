@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# ---- Ambientes virtuais (uv usa .venv) ----
+.venv/
+venv/
+env/
+
+# ---- uv ----
+# O uv.lock É versionado de propósito (reprodutibilidade do ambiente).
+# Apenas caches locais ficam de fora:
+.uv-cache/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Dados / saídas pesadas (não subir para repo público) ----
+data/raw/
+data/interim/
+*.parquet
+*.csv
+# exceção: pequenas amostras de exemplo
+!data/sample/*.csv
+
+# ---- Ferramentas / editor ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Segredos ----
+.env
+.env.*
+!.env.example

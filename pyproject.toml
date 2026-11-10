@@ -1,0 +1,14 @@
+[project]
+name = "stats-foundations"
+version = "0.1.0"
+description = "Fundamentos de estatística aplicada a marketing data science"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.7",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "scipy>=1.17.1",
+]
