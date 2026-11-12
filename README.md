@@ -85,3 +85,20 @@ completo: planejamento de amostra, análise, correção de múltiplas métricas 
 ---
 
 Hélcio Venâncio · [github.com/ghitflux](https://github.com/ghitflux) · Licença MIT
+
+## Como este estudo foi feito
+
+Este estudo foi construído com assistência de IA (Claude Code, da Anthropic), usada como par de programação.
+Declaro a divisão do trabalho porque ela importa para quem avalia:
+
+- **Meu:** o contexto de negócio (as perguntas são as que aparecem no dia a dia de quem gere mídia paga: a queda foi real ou ruído? quantos leads o teste precisa?), o estudo de cada conceito, a leitura crítica dos resultados e a decisão do que publicar e do que declarar como limitação.
+- **Com o assistente:** a escolha do método, a implementação do código, dos testes e dos gráficos, e a redação,
+  que revisei.
+- **Como conferir:** os notebooks rodam do início ao fim e regeram todas as tabelas e figuras; os dados são sintéticos, com semente fixa.
+
+É o mesmo jeito que trabalho nos sistemas que entrego: a IA acelera a implementação, e a responsabilidade pelo que
+está escrito aqui é minha.
+
+*In English: built with AI assistance (Claude Code) as a pair programmer. Direction, business context, critical
+review of the results and the decision of what to publish are mine; method choice, implementation and writing were
+done with the assistant and reviewed by me.*
